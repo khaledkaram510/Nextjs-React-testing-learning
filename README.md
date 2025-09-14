@@ -17,43 +17,59 @@ I created this repo to:
 
 ---
 
-## 🗂️ Folder Structure
+## 🗂️ Project Structure
 
-| Folder     | Topic Description               |
-|------------|---------------------------------|
-| `topic-01` | Description of Topic 1          |
-| `topic-02` | Description of Topic 2          |
-| `topic-03` | Description of Topic 3          |
-| ...        | and so on...                    |
+| Route                     | Description                                  |
+| ------------------------- | -------------------------------------------- |
+| `/`                       | Home page                                    |
+| `/test_react_compiler`    | Experiments with React Compiler optimization |
+| `/try_some_carry_example` | Examples of React's carry feature            |
 
-
-
-> ✅ More topics will be added regularly as I continue learning.
+> ✅ More examples will be added as I continue exploring React 19 and Next.js features.
 
 ---
 
-## 🛠️ How to Run Any Lesson
-
-Each lesson folder is a standalone Next.js app.
+## 🛠️ How to Run This Project
 
 ### Steps:
 
-1. Navigate into the lesson folder:
+1. Clone the repository:
 
    ```bash
-   cd lesson-01-basic-pages
+   git clone <your-repo-url>
+   cd Nextjs-React-testing-learning
    ```
+
 2. Install dependencies:
-    ```bash
-    pnpm install
-    ```
-    Or, if you're using npm or yarn:
-    ```bash
-    npm install
-    # or
-    yarn
-    ```
+
+   ```bash
+   pnpm install
+   ```
+
+   Or, if you're using npm or yarn:
+
+   ```bash
+   npm install
+   # or
+   yarn
+   ```
+
 3. Start the development server:
-    ```bash
-    pnpm dev
-    ```
+
+   ```bash
+   pnpm dev
+   ```
+
+   This project uses Turbopack for faster development experience.
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
+
+## 🧪 Technologies
+
+This project uses:
+
+- Next.js 15 with App Router
+- React 19
+- React Compiler (experimental)
+- TailwindCSS 4
+- TypeScript
